@@ -1,0 +1,57 @@
+\hypertarget{main_8cpp}{}\section{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.\+cpp@{main.\+cpp}}
+
+
+This program print employee info.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}Employee.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Supervisor.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Officer.\+h\char`\"{}}\newline
+Include dependency graph for main.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{main_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{main_8cpp_a9ccea1912d6e2275d5612e294919d113}{run\+Employee\+Tests} (\hyperlink{classEmployee}{Employee} \&e)
+\item 
+\mbox{\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+int {\bfseries main} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This program print employee info. 
+
+\begin{DoxyAuthor}{Author}
+William Hayes 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2022-\/03-\/09 This program prints info for standard employees, supervisors, and officers by using inherited classes 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_a9ccea1912d6e2275d5612e294919d113}\label{main_8cpp_a9ccea1912d6e2275d5612e294919d113}} 
+\index{main.\+cpp@{main.\+cpp}!run\+Employee\+Tests@{run\+Employee\+Tests}}
+\index{run\+Employee\+Tests@{run\+Employee\+Tests}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{run\+Employee\+Tests()}{runEmployeeTests()}}
+{\footnotesize\ttfamily void run\+Employee\+Tests (\begin{DoxyParamCaption}\item[{\hyperlink{classEmployee}{Employee} \&}]{e }\end{DoxyParamCaption})}
+
+calls the class\textquotesingle{} print, anniversary, and calculate\+Pay methods
+
+
+\begin{DoxyParams}{Parameters}
+{\em \hyperlink{classEmployee}{Employee}} & \& e the class the user wants to call \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+\hyperlink{classEmployee}{Employee} \& e needs to be properly declared 
+\end{DoxyPrecond}

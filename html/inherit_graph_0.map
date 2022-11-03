@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classEmployee.html" title="This class allows the user to interact with employee info. " alt="" coords="5,31,85,57"/>
+<area shape="rect" id="node2" href="$classOfficer.html" title="prints the officer&#39;s ID, years worked for company, hours worked , hourly pay, and the evilness they&#39;v..." alt="" coords="145,5,206,32"/>
+<area shape="rect" id="node3" href="$classSupervisor.html" title="prints ID, years worked, hourly rate, workers supervised, and etc. " alt="" coords="133,56,217,83"/>
+</map>
