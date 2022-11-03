@@ -1,3 +1,12 @@
+/**
+ * @file Employee.cpp
+ * @author William Hayes
+ * @date 2022-11-03
+ * @brief This file implements the Employee class
+ * 
+ * This .cpp file implemenets the Employee class's methods
+ */
+
 #include "Employee.h"
 #include <iostream>
 

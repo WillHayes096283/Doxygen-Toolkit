@@ -1,3 +1,12 @@
+/**
+ * @file Officer.cpp
+ * @author William Hayes
+ * @date 2022-11-03
+ * @brief This file implements the Officer class
+ * 
+ * This .cpp file implements the Officer class's methods
+ */
+
 #include "Officer.h"
 #include <iostream>
 

@@ -1,3 +1,12 @@
+/**
+ * @file main.cpp
+ * @author William Hayes
+ * @date 2022-03-09
+ * @brief This program print employee info
+ * 
+ * This program prints info for standard 
+ * employees, supervisors, and officers by using inherited classes
+ */
 
 #include <iostream>
 #include "Employee.h"
@@ -6,6 +15,13 @@
 
 using namespace std;
 
+/**
+ * calls the class' print, anniversary, and calculatePay methods
+ *
+ * @param Employee & e the class the user wants to call
+ * @pre Employee & e needs to be properly declared
+ * 
+ */
 void runEmployeeTests(Employee & e);
 
 int main() {
